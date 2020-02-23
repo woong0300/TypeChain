@@ -1,6 +1,13 @@
 {
-  "name": "TypeChain",
+  "name": "type_chain",
   "version": "1.0.0",
+  "description": "Blockchain prototype with TypeScript",
   "main": "index.js",
-  "license": "MIT"
+  "repository": "https://github.com/woong0300/TypeChain",
+  "author": "Jin hee woong <woong0300@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
